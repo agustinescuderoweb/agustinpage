@@ -1,0 +1,88 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px 150px;
+    background-color:  antiquewhite;
+    height: 250px;
+}
+
+.imag {
+    width: 500px;
+}
+
+.container h1 {
+    font-size: 35px;
+    padding-right: 70px;
+}
+
+.servicios {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 100px;
+    gap: 200px;
+    margin-top: 200px;
+}
+
+.landing {
+    width: 300px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.landing h1 {
+    padding: 20px;
+    background-color: orange;
+}
+
+
+.landing p {
+    padding: 25px;
+}
+
+.landing h2 {
+    padding: 20px;
+    background-color: orange;
+}
+
+.web {
+    width: 300px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.web h1 {
+    padding: 20px;
+    background-color: yellowgreen;
+}
+
+.web p {
+    padding: 10px;
+}
+
+.web h2 {
+    padding: 20px;
+    background-color: yellowgreen;
+}
+
+.sitio {
+    width: 300px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.sitio h1 {
+    padding: 20px;
+    background-color: blueviolet;
+}
+
+.sitio p {
+    padding: 10px;
+}
+
+.sitio h2 {
+    padding: 20px;
+    background-color: blueviolet;
+}
