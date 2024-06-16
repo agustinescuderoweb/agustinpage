@@ -7,6 +7,7 @@
     padding: 0px 150px;
     background-color:  antiquewhite;
     height: 250px;
+    margin-top: 50px;
 }
 
 .imag {
@@ -15,7 +16,6 @@
 
 .container h1 {
     font-size: 35px;
-    padding-right: 70px;
 }
 
 .servicios {
@@ -31,7 +31,8 @@
 
 .landing {
     width: 300px;
-    box-shadow: 0px 0px 10px black;
+    height: 450px;
+    text-align: center;
 }
 
 .landing h1 {
@@ -41,7 +42,7 @@
 
 
 .landing p {
-    padding: 25px;
+    padding: 23px;
 }
 
 .landing h2 {
@@ -51,11 +52,11 @@
 
 .web {
     width: 300px;
-    box-shadow: 0px 0px 10px black;
+    height: 450px;
 }
 
 .web h1 {
-    padding: 20px;
+    padding: 25px;
     background-color: yellowgreen;
 }
 
@@ -70,7 +71,7 @@
 
 .sitio {
     width: 300px;
-    box-shadow: 0px 0px 10px black;
+    height: 450px;
 }
 
 .sitio h1 {
@@ -85,4 +86,23 @@
 .sitio h2 {
     padding: 20px;
     background-color: blueviolet;
+}
+
+.lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.lista li {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.lista Image {
+    display: flex;
+    justify-content: initial;
 }
